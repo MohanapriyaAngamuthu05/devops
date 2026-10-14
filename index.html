@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealOps Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101827;
+      color: white;
+      text-align: center;
+    }
+    header {
+      background: #18263b;
+      padding: 24px;
+    }
+    h1 { color: #50e3c2; }
+    main { padding: 35px 15px; }
+    .card {
+      display: inline-block;
+      background: #202e43;
+      padding: 24px;
+      margin: 12px;
+      border-radius: 12px;
+      min-width: 180px;
+    }
+    .status { color: #50e3c2; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HealOps</h1>
+    <p>Self-Healing Container Platform</p>
+  </header>
+  <main>
+    <h2>System Dashboard</h2>
+    <div class="card">
+      <h3>Application</h3>
+      <p class="status">Running</p>
+    </div>
+    <div class="card">
+      <h3>Health Check</h3>
+      <p class="status">Healthy</p>
+    </div>
+    <div class="card">
+      <h3>Recovery</h3>
+      <p>Ready</p>
+    </div>
+  </main>
+</body>
+</html>
